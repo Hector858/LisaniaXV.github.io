@@ -663,7 +663,7 @@ h1.slider-up {
         }
 
         #full-screen-img {
-            position: fixed;
+            position: absolute;
             top: 0;
             left: 0;
             width: 100vw; /* Ajusta el ancho al 100% de la ventana */
