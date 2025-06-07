@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style_ani.css">
+    <link rel="stylesheet" media="all" href="css/style.css" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- Favicon para navegadores modernos -->
+    <link rel="icon" href="img/sobrelisa.png" type="image/x-icon">
+
+    <!-- Vista previa -->
+    <meta property="og:title" content="Invitación XV">
+    <meta property="og:description" content="Tania Judith González Salcedo">
+    <meta property="og:image" content="https://raw.githubusercontent.com/AlexGlez1489/Invitaci-n-XV/main/fondotania2.jpg">
+    <meta property="og:url" content="https://xvtaniaunic.pages.dev/">
+    <meta property="og:type" content="website">
+    
+</head>
+
+<body>
+    <!-- seccion imagen invitación -->
+    <div id="full-screen-img"  >
+        
+        <!-- Botón para abrir la invitación -->
+        <button id="open-invite-btn" class="btn btn-lg btn-success">Abrir invitación</button>
+    
+    </div>
+
+    <!-- Botón de música -->
+    <button id="music-btn" class="btn btn-primary mt-3">
+        <i class="fas fa-music"></i>
+    </button>
+    <!-- Elemento de audio -->
+    <audio id="audio" src="musica/musica.mp3" loop></audio>
+
+
+
+    <!-- Seccion principal -->
+    <section class="contenedor principal fade-in" id="section1">
+        <div class="texto-principal">
+            <h1 class="slider-izq">Mis XV años</h1>
+            <h2 class="slider-der">Lisania Zambrano Moreira</h2>
+            <h1 class="slider-izq">05 de Julio 2025</h1>
+            <br><br>
+            <div class="deslizar slider-der" id="animacion">
+                <i class="fas fa-chevron-down icon"></i>
+                <a  href="#section2"><p class="animate-text">Deslizar</p></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion bendiciones -->
+
+    <section class="contenedor-m hidden fade-in" id="section2">
+        <div class="texto-m slider-up">
+            <h2>Hoy en este día tan especial, primero que todo le doy las gracias a Dios por haberme permitido estar aquí y a mis padres por darme el apoyo para realizar el sueño de toda quinceañera. Hoy dejaré de ser una niña para comenzar una nueva etapa de mi vida y te invito a que compartas este día tan especial para mí.</h2>
+            <div class="heart-container">
+                <i class="fas fa-heart" style="color: black;"></i> <!-- Ícono de corazón blanco -->
+            </div>
+        </div>
+    </section>
+             <!-- seccion bendiciones -->
+    <section class="contenedor-agra hidden fade-in" id="section3">
+        <div class="cont-text">
+            <div class="texto-mensa">
+                <h2 class="slider-up">Con la bendición de Dios en compañía de:</h2>
+            </div>
+            <div class="texto-mensa slider-izq">
+                <h2>Mis Padres</h2>
+                <h1>Orlando Zambrano Intriago</h1>
+                <h1>Dolores Moreira Zambrano</h1>
+            </div>
+            <div class="texto-mensa slider-down">
+                <h2>Nos complace invitarte a ser parte de este gran día.</h2>
+            </div>
+        </div>
+    </section>
+    
+ <!-- seccion lugar -->
+    <section class="contenedor-ubi hidden fade-in" id="section5">
+        <div class="cont-text">
+            <div class="ubicacion-txt">
+                <h2 class="slider-izq">Ceremonia Religiosa</h2>
+            </div>
+            <div class="ubicacion-img slider-down">
+                <img src="img/canutoiglesia.png" alt="">
+            </div>
+            <div class="ubicacion-txt">
+                <h1 class="slider-der">Parroquia San Francisco y Santa Rosa</h1>
+            </div>
+            <div class="ubicacion-txt">
+                <h1 class="slider-izq">7:00 p.m</h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center slider-der">
+                <div class="reloj">
+                    <div class="mano segundos"></div>
+                    <div class="mano minutos"></div>
+                </div>
+            </div>
+            <div class="btn2 slider-down">
+                <a href="https://maps.app.goo.gl/KM4CBUf2ZRcF8R9Y6" target="_blank">VER MAPA</a>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- seccion lugar -->
+
+    <section class="contenedor-ubi hidden fade-in" id="section6">
+        <div class="cont-text">
+            <div class="ubicacion-txt slider-izq">
+                <h2>Recepción</h2>
+            </div>
+            <div class="ubicacion-txt slider-der">
+                <h1>Casa de mis padres</h1>
+            </div>
+            <div class="ubicacion-txt slider-izq">
+                <h1>8:00 p.m</h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center slider-der">
+                <div class="reloj">
+                    <div class="mano segundos"></div>
+                    <div class="mano minutos"></div>
+                </div>
+            </div>
+            <div class="ubicacion-txt slider-izq">
+                <h1>Hueso de vaca</h1>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- seccion lugar -->
+    <section class="contenedor-ev hidden fade-in" id="section7">
+        <div class="cont-text-eve">
+            <div class="ubicacion-txt slider-izq">
+                <h2>Te compartimos los detalles de la celebración</h2>
+            </div>
+            <div class="evento">
+                <h2>Horario</h2><br>
+                <h2>7:00 p.m</h2>
+                <h1>Ceremonia Religiosa</h1>
+                <img src="img/iconocolordoradoiglesia.png" alt="Ceremonia Religiosa">
+            </div>
+            <div class="evento">
+                <h2>8:00 p.m</h2>
+                <h1>Evento</h1>
+                <img src="img/EB-Iconos-web-41.png" alt="Cocktail">
+            </div>
+        </div>
+    </section>
+
+        <!-- seccion agradecimientos -->
+
+        <section class="contenedor-m hidden fade-in" id="section9">
+            <div class="texto-m text-center slider-up">
+                <h2>Gracias por acompañarme en este día tan especial.</h2>
+                <div class="heart-container">
+                    <i class="fas fa-heart" style="color: black;"></i> <!-- Ícono de corazón blanco -->
+                </div>
+            </div>
+        </section>
+
+           <!-- Sección Confirmar Asistencia -->
+    <section class="contenedor principal" id="section-confirmar-asistencia">
+        <div class="texto-principal text-center">
+            <h1>Mis XV años - Lisania Zambrano Moreira</h1>
+            <h2>05 de Julio 2025</h2>
+            <br><br>
+            <!-- Botón para confirmar asistencia -->
+            <form id="rsvp-form">
+                <button type="submit" id="rosa" class="btn btn-lg btn-success"><b>Confirmar asistencia</b> </button>
+            </form>
+        </div>
+    </section>
+            <script>
+                // Envío de confirmación de asistencia
+                document.getElementById("rsvp-form").addEventListener("submit", function(event) {
+                    event.preventDefault(); // Evita el envío tradicional del formulario
+                    const whatsappURL = `https://api.whatsapp.com/send?phone=593987545992&text=¡Hola Lisania! Confirmo mi asistencia a tus XV años.`;
+                    window.open(whatsappURL, '_blank');
+                });
+            </script>
+            <script src="js/script.js"></script>
+            
+
+</body>
+
+</html>
